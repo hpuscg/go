@@ -31,6 +31,43 @@
 不带前面参数的 go build 只是编译出开发环境适用的执行文件。
 =================================================
   
+  GOOS是你的应用程序将要运行平台的操作系统
+  GOARCH是你的应用程序将要运行平台的处理器架构。
+  
+有效的$GOOS和$GOARCH组合如下：
+    $GOOS		  $GOARCH
+    android     arm
+    darwin      386
+    darwin      amd64
+    darwin      arm
+    darwin      arm64
+    dragonfly   amd64
+    freebsd     386
+    freebsd     amd64
+    freebsd     arm
+    linux       386
+    linux       amd64
+    linux       arm
+    linux       arm64
+    linux       ppc64
+    linux       ppc64le
+    linux       mips
+    linux       mipsle
+    linux       mips64
+    linux       mips64le
+    netbsd      386
+    netbsd      amd64
+    netbsd      arm
+    openbsd     386
+    openbsd     amd64
+    openbsd     arm
+    plan9       386
+    plan9       amd64
+    solaris     amd64
+    windows     386
+    windows     amd64
   
   
-  
+
+
+
